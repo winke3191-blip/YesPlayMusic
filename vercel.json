@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "https://ncm-ogivzis7v-white-water.vercel.app/:match*"
+    }
+  ]
+}
