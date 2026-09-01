@@ -810,6 +810,7 @@
 <script>
 import { mapState, mapActions } from 'vuex';
 import { isLooseLoggedIn, doLogout } from '@/utils/auth';
+import { auth as lastfmAuth } from '@/api/lastfm';
 import {
   changeAppearance,
   changeThemeColor,
